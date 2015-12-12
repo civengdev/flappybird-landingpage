@@ -1,0 +1,56 @@
+/* line 22, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+.navbar img {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+/* line 25, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+.navbar h3 {
+  color: white;
+  margin-top: 0.5em;
+  margin-left: 2em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 31, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+.navbar a {
+  font-weight: 500;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 38, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+.jumbotron {
+  margin-top: 2em;
+  height: 28.5em;
+  background-image: url(../img/giphy.gif); }
+  /* line 43, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+  .jumbotron .container h1 {
+    padding-bottom: 0.5em;
+    color: darkorange;
+    font-weight: 500; }
+  /* line 48, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+  .jumbotron .container p {
+    margin-top: 2.1em; }
+
+/* line 55, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+.modal h4 {
+  text-align: center; }
+
+/* line 60, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+.ftr {
+  height: 25em;
+  margin-top: -3.0em;
+  background-color: #002f2f;
+  overflow: inherit; }
+  /* line 65, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+  .ftr hr {
+    font-weight: bolder; }
+  /* line 68, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+  .ftr i {
+    padding-left: 0.5em;
+    padding-right: 0.5em; }
+  /* line 72, C:/Users/Miguel/Documents/Projects/flappybird-landingpage/site/scss/main.scss */
+  .ftr h3 {
+    padding-top: 1em;
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,76 @@
+$font-color:;
+$link-color:;
+$hover-link-color:;
+$background-color:;
+$sans-serif-font: 'Helvetica Neue',
+Helvetica,
+Arial,
+sans-serif;
+$serif-font: Georgia,
+Times,
+'Times New Roman',
+serif;
+@mixin vert-center {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {}
+
+.navbar {
+    img {
+        @include vert-center;
+    }
+    h3 {
+        color: white;
+        margin-top: 0.5em;
+        margin-left: 2em;
+        font-family: $sans-serif-font;
+    }
+    a {
+        font-weight: 500;
+        color: white;
+        font-family: $sans-serif-font;
+    }
+}
+
+.jumbotron {
+    margin-top: 2em;
+    height: 28.5em;
+    background-image: url(../img/giphy.gif);
+    .container {
+        h1 {
+            padding-bottom: 0.5em;
+            color: darkorange;
+            font-weight: 500;
+        }
+        p {
+            margin-top: 2.1em;
+        }
+    }
+}
+
+.modal {
+    h4 {
+        text-align: center;
+    }
+}
+
+.ftr {
+    height: 25em;
+    margin-top: -3.0em;
+    background-color: #002f2f;
+    overflow: inherit;
+    hr {
+        font-weight: bolder;
+    }
+    i {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    h3 {
+        padding-top: 1em;
+        color: white;
+    }
+}
