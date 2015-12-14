@@ -13,4 +13,13 @@ $(function () {
             $('#navbar li').removeClass('active');
         }, 2000);
     });
+
+    $(".cta-button").mousedown(function () {
+        $(this)
+            .velocity({
+                scale: "1.5"
+            }, 150, "easeInOut")
+            .velocity("reverse");
+    });
+
 });
